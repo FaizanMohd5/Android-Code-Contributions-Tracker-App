@@ -4,4 +4,11 @@
     <string name="linkID">Connect Profile</string>
     <string name="statusID">Progress</string>
     <string name="accountsID">Connected Platforms</string>
+
+    <!--Add Contributions-->
+    <string name="contributionTitleID">Title</string>
+    <string name="noOfContributionsID">Number of Contributions</string>
+    <string name="contributionDescriptionID">Description</string>
+    <string name="fillerID">null</string>
+    <string name="saveContributionID">Save Contribution</string>
 </resources>

@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="layout_color">#121212</color>
     <color name="text_color">#FFFFFF</color>
+    <!--secondary color-->
+    <color name="secondary_color">#2C2C2C</color>
 </resources>
