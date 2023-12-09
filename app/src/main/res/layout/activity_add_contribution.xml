@@ -33,6 +33,21 @@
         tools:ignore="RtlSymmetry" />
 
     <EditText
+        android:id="@+id/platformEditText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/contributionPlatformID"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/shallow_hint_color"
+        android:autofillHints="GitHub"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
         android:id="@+id/numberEditText"
         android:layout_width="350dp"
         android:layout_height="wrap_content"

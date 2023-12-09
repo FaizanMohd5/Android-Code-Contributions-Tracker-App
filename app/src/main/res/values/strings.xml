@@ -12,6 +12,7 @@
     <string name="contributionTitleID">Title</string>
     <string name="noOfContributionsID">Number of Contributions</string>
     <string name="contributionDescriptionID">Description</string>
+    <string name="contributionPlatformID">Platform</string>
     <string name="fillerID">null</string>
     <string name="saveContributionID">Save Contribution</string>
 </resources>
