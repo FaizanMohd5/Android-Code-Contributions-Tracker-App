@@ -24,7 +24,9 @@
         android:background="@drawable/rounded_edittext"
         android:hint="@string/contributionTitleID"
         android:textColor="@color/text_color"
-        android:layout_marginBottom="16dp"/>
+        android:textColorHint="@color/shallow_hint_color"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="8dp"/>
 
     <EditText
         android:id="@+id/numberEditText"
@@ -34,7 +36,9 @@
         android:hint="@string/noOfContributionsID"
         android:inputType="number"
         android:textColor="@color/text_color"
-        android:layout_marginBottom="16dp"/>
+        android:textColorHint="@color/shallow_hint_color"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="8dp"/>
 
     <EditText
         android:id="@+id/descriptionEditText"
@@ -43,8 +47,9 @@
         android:background="@drawable/rounded_edittext"
         android:hint="@string/contributionDescriptionID"
         android:textColor="@color/text_color"
-
-        android:layout_marginBottom="16dp"/>
+        android:textColorHint="@color/shallow_hint_color"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="8dp"/>
 
     <!-- Button to Save Contribution -->
     <androidx.appcompat.widget.AppCompatButton

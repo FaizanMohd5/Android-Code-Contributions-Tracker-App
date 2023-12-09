@@ -6,4 +6,5 @@
     <color name="text_color">#FFFFFF</color>
     <!--secondary color-->
     <color name="secondary_color">#2C2C2C</color>
+    <color name="shallow_hint_color">#2DFFFFFF</color>
 </resources>
