@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UpCode</string>
+    <string name="addID">Add Goal</string>
+    <string name="linkID">Connect Profile</string>
+    <string name="statusID">Progress</string>
+    <string name="accountsID">Connected Platforms</string>
+</resources>
