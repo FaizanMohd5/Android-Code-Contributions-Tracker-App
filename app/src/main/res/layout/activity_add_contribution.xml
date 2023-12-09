@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,41 +14,52 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/app_logo" />
+        android:src="@drawable/app_logo"
+        android:contentDescription="@string/logoDescriptionID" />
 
     <EditText
         android:id="@+id/titleEditText"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_edittext"
         android:hint="@string/contributionTitleID"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="8dp"
         android:textColor="@color/text_color"
         android:textColorHint="@color/shallow_hint_color"
-        android:layout_marginBottom="16dp"
-        android:paddingLeft="8dp"/>
+        android:autofillHints="???"
+        tools:ignore="RtlSymmetry" />
 
     <EditText
         android:id="@+id/numberEditText"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_edittext"
         android:hint="@string/noOfContributionsID"
         android:inputType="number"
+        android:minHeight="48dp"
+        android:paddingStart="8dp"
         android:textColor="@color/text_color"
         android:textColorHint="@color/shallow_hint_color"
-        android:layout_marginBottom="16dp"
-        android:paddingLeft="8dp"/>
+        android:autofillHints="1"
+        tools:ignore="RtlSymmetry" />
 
     <EditText
         android:id="@+id/descriptionEditText"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_edittext"
+        android:inputType="text"
         android:hint="@string/contributionDescriptionID"
         android:textColor="@color/text_color"
         android:textColorHint="@color/shallow_hint_color"
         android:layout_marginBottom="16dp"
-        android:paddingLeft="8dp"/>
+        android:paddingStart="8dp"
+        android:autofillHints="<None>"
+        tools:ignore="RtlSymmetry" />
 
     <!-- Button to Save Contribution -->
     <androidx.appcompat.widget.AppCompatButton
@@ -62,5 +72,4 @@
         android:textColor="@color/text_color"
         android:gravity="center"
         android:layout_marginBottom="16dp"/>
-
 </LinearLayout>

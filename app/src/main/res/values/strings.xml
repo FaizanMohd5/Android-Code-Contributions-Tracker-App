@@ -1,4 +1,7 @@
 <resources>
+    <!---->
+    <string name="logoDescriptionID">Logo</string>
+    <!--Dashboard-->
     <string name="app_name">UpCode</string>
     <string name="addID">Add Goal</string>
     <string name="linkID">Connect Profile</string>
