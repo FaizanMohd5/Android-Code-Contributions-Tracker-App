@@ -15,4 +15,9 @@
     <string name="contributionPlatformID">Platform</string>
     <string name="fillerID">null</string>
     <string name="saveContributionID">Save Contribution</string>
+
+    <!--Link profile-->
+    <string name="linkProfileID">Link Profile</string>
+    <string name="profileUrlID">None</string>
+    <string name="backID">Go Back</string>
 </resources>
