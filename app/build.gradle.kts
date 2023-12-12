@@ -5,7 +5,7 @@ plugins {
 android {
     namespace = "com.upcode.contributiontracker"
     compileSdk = 33
-
+    compileSdkVersion = 34
     defaultConfig {
         applicationId = "com.upcode.contributiontracker"
         minSdk = 21
@@ -34,7 +34,7 @@ android {
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.8.0")
+    implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
