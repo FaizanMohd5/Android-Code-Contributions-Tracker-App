@@ -20,4 +20,6 @@
     <string name="linkProfileID">Link Profile</string>
     <string name="profileUrlID">None</string>
     <string name="backID">Go Back</string>
+    <string name="tagline">Even One line of code is a contribution</string>
+    <string name="imageContexLOGO">logo</string>
 </resources>

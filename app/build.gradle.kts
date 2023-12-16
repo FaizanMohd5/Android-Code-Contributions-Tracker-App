@@ -4,8 +4,7 @@ plugins {
 
 android {
     namespace = "com.upcode.contributiontracker"
-    compileSdk = 33
-    compileSdkVersion = 34
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.upcode.contributiontracker"
         minSdk = 21

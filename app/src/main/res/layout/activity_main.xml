@@ -16,12 +16,13 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/app_logo" />
+        android:src="@drawable/app_logo"
+        android:contentDescription="@string/imageContexLOGO" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Even One line of code is a contribution"
+        android:text="@string/tagline"
         android:textSize="20sp"
         android:textColor="#BDBDBD"
         android:layout_marginBottom="24dp"/>

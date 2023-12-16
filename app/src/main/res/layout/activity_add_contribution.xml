@@ -29,7 +29,6 @@
         android:paddingStart="8dp"
         android:textColor="@color/text_color"
         android:textColorHint="@color/shallow_hint_color"
-        android:autofillHints="???"
         tools:ignore="RtlSymmetry" />
 
     <EditText
